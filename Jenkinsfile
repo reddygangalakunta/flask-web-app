@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/reddygangalakunta/flask-web-app.git'
+                git clone https://github.com/reddygangalakunta/flask-web-app
             }
         }
         
